@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body{
+    background-color: #1C1C1D;
+    background-size: 40px 40px;
+    background-image:
+    linear-gradient(to right, black 1px, transparent 1px),
+    linear-gradient(to bottom, black 1px, transparent 1px);
+    margin: 2%;
+    border: 2px solid #FD83D5;
+    height: 650px;
+    font-family: Poppins;
+    
+}
+
+#mainImg{
+    padding-left: 34%;
+}
+
+.top{
+    padding-top: 3%;
+}
+
+.text1{
+    color: white;
+    font-size: 74px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    margin-top: 5%;
+    padding: 5px;
+    
+}
+
+.text2{
+    color: white;
+}
+
+.child{
+    padding: 5px;
+    width: 50%;
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 35px;
+    border-radius: 131.6px;
+    background: #1C1C1D;
+    box-shadow: -7.28456px 7.28456px 14.5691px rgba(14, 14, 15, 0.2), 7.28456px -7.28456px 14.5691px rgba(14, 14, 15, 0.2), -7.28456px -7.28456px 14.5691px rgba(42, 42, 44, 0.9), 7.28456px 7.28456px 18.7317px rgba(14, 14, 15, 0.9), inset 1.04065px 1.04065px 2.0813px rgba(42, 42, 44, 0.3), inset -1.04065px -1.04065px 2.0813px rgba(14, 14, 15, 0.5);
+}
+
+#hollow{
+    color: white;
+  -webkit-text-fill-color: #1C1C1D; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: white;
+}
+
+
+.child1{
+    width: 50%;
+    
+}
+
+
+
+.switch {
+    
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin-left: 20%;
+    
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2F2F2F;
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 0px 9.01587px 9.01587px rgba(0, 0, 0, 0.25);
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 42px;
+    width: 42px;
+    left: -1px;
+    bottom: -6px;
+    background-color: #2F2F2F;
+    border: 5px solid #FA4AC9;
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 0px 9.01587px 9.01587px rgba(0, 0, 0, 0.25);
+  }
+  
+  input:checked + .slider {
+    background-color: #FA4AC9;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2F2F2F;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .running{
+    margin-left: 22%;
+    padding-top: 20px;
+    color: #FA4AC9;
+    font-weight: 400;
+    font-size: 28px;
+  }
+  
+  #save{
+      margin-left: 62%;
+      padding-left: 6%;
+      padding-right: 6%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      
+box-shadow: 6.63546px 6.63546px 8.29432px rgba(45, 45, 46, 0.3), -6.63546px -6.63546px 8.29432px rgba(11, 11, 12, 0.5), inset -165.886px 165.886px 331.773px rgba(11, 11, 12, 0.2), inset 165.886px -165.886px 331.773px rgba(11, 11, 12, 0.2), inset -165.886px -165.886px 331.773px rgba(45, 45, 46, 0.9), inset 165.886px 165.886px 414.716px rgba(11, 11, 12, 0.9);
+border-radius: 16.5886px;
+  }
+
+  #savetext{
+    margin-left: 65%;
+    color: #FA4AC9;
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  
+
+  #size{
+    background-color: #1C1C1D;
+    color: white;
+    font-family: Poppins;
+    font-size: 35px;
+    border: none;
+  }
+
+  #option{
+    font-family: Poppins;
+    font-size: 15px;
+  }
